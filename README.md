@@ -45,3 +45,9 @@
     We used ChatGPT 4o to generate our logo.
     We used Claude 3.7 Sonnet in the Windsurf Editor to help us code.
     We used the Next.js Supabase starter kit (https://vercel.com/templates/next.js/supabase) to help us handle auth.
+
+## Note on our API
+
+    `weather_api.py` is contained in /utils/api to show judges and comply with WildHacks rules, but the production version of our app uses a copy of this file hosted in a separate git repository: https://github.com/andrewcyuan/wh25_weatherAPI
+
+    We do this so that we can easily host the API on Render.
